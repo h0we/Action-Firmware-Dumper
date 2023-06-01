@@ -102,9 +102,6 @@ jobs:
         git add product
         git commit -m "Initial commit: Import from ${{ github.event.inputs.FIRMWARE_NAME }}."
         git push -u origin ${{ github.event.inputs.FIRMWARE_NAME }}
-        git add boot
-        git commit -m "Initial commit: Import from ${{ github.event.inputs.FIRMWARE_NAME }}."
-        git push -u origin ${{ github.event.inputs.FIRMWARE_NAME }}
         git add my_engineering
         git commit -m "Initial commit: Import from ${{ github.event.inputs.FIRMWARE_NAME }}."
         git push -u origin ${{ github.event.inputs.FIRMWARE_NAME }}
